@@ -1,0 +1,14 @@
+{
+    "authentication": {
+        "loginError": "Failed to login. Wrong Username/Email",
+        "checkingRole": "Checking Role(s)",
+        "selectRole": "Please, select a role.",
+        "noRoles": "Sorry! you are not assigned any roles",
+        "noPrivilege": "Sorry! you are not granted any menu privilege",
+        "serverError": "Server Error.",
+        "checkingPermissions": "Checking permissions",
+        "loadingMenus": "Loading menus...",
+        "noComponent": "Failed to get component information.",
+        "serverProblem": "Sorry! Server Related Problem Encountered. Please Contact With Authority."
+    }
+}
