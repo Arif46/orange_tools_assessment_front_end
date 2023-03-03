@@ -1,0 +1,1067 @@
+{
+  "common": [
+    {
+      "title": "Home",
+      "name": "home",
+      "is_active": false,
+      "link": {
+        "name": "auth.dashboard"
+      },
+      "class_name": "",
+      "icon": "M50,21.25l25,22.5V82.8H65v-30H35v30H25v-39l25-22.5M50,7.8,2.87,50.21a1.49,1.49,0,0,0,1,2.59H15v40H45v-30H55v30H85v-40H96.13a1.49,1.49,0,0,0,1-2.59Z",
+      "is_icon_class": true
+    },
+    {
+      "title": "Dashboard",
+      "name": "dashboard",
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "icon": "M88.89,0H11.11A11.14,11.14,0,0,0,0,11.11V88.89A11.14,11.14,0,0,0,11.11,100H88.89A11.14,11.14,0,0,0,100,88.89V11.11A11.14,11.14,0,0,0,88.89,0ZM11.11,88.89V11.11H44.44V88.89Zm77.78,0H55.56V50H88.89Zm0-50H55.56V11.11H88.89Z",
+      "is_icon_class": true
+    },
+    {
+      "title": "Organization Profile",
+      "name": "org_profile", 
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "OrgProfile",
+          "name": "org_profile",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.organization-profile"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Country",
+          "name": "country",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.country"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Division",
+          "name": "division",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.division"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "District",
+          "name": "district",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.district"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Upazila",
+          "name": "upazila",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.upazila"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Union",
+          "name": "union",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.union"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }, 
+        {
+          "title": "City Corporation",
+          "name": "city_corporation",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.city_corporation"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Municipality",
+          "name": "municipality",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.municipality"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }, 
+        {
+          "title": "Ward",
+          "name": "ward",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.ward"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Fiscal",
+          "name": "fiscal_year",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.fiscalyear"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "bank",
+          "name": "bank",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.bank"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Dialogue Info",
+          "name": "dialogue_info",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.dialogue-info"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "branch",
+          "name": "branch",
+          "is_active": false,
+          "link": {
+            "name": "common_service.org_profile.branch"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Organogram",
+      "name": "organogram", 
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Office Type",
+          "name": "office_type",
+          "is_active": false,
+          "link": {
+            "name": "common_service.organogram.office_type"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Office",
+          "name": "office",
+          "is_active": false,
+          "link": {
+            "name": "common_service.organogram.office"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Designation",
+          "name": "designation",
+          "is_active": false,
+          "link": {
+            "name": "common_service.organogram.designation"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Assign Designation",
+          "name": "assign_designation",
+          "is_active": false,
+          "link": {
+            "name": "common_service.organogram.assign_designation"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Component Designation",
+          "name": "component_designation",
+          "is_active": false,
+          "link": {
+            "name": "common_service.organogram.component_designation"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "UserManagement",
+      "name": "user_management", 
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "User",
+          "name": "user",
+          "is_active": false,
+          "link": {
+            "name": "auth_service.user_management.user_list"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Assign User Role",
+          "name": "assign_user_role",
+          "is_active": false,
+          "link": {
+            "name": "auth_service.user_management.assign_user_list"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Menu Privilege",
+          "name": "menu_privilege",
+          "is_active": false,
+          "link": {
+            "name": "auth_service.user_management.menu_privilege_list"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Role",
+          "name": "role",
+          "is_active": false,
+          "link": {
+            "name": "auth_service.user_management.role"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Question name",
+          "name": "secret_question",
+          "is_active": false,
+          "link": {
+            "name": "auth_service.user_management.secret_question"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Menu",
+      "name": "menu",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Dashboard",
+          "name": "dashboard",
+          "is_active": false,
+          "link": {
+            "name": "common_service.dashboard"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Component",
+          "name": "component",
+          "is_active": false,
+          "link": {
+            "name": "common_service.menu.component"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Module",
+          "name": "module",
+          "is_active": false,
+          "link": {
+            "name": "common_service.menu.module"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Service",
+          "name": "service",
+          "is_active": false,
+          "link": {
+            "name": "common_service.menu.service"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Menu",
+          "name": "menu",
+          "is_active": false,
+          "link": {
+            "name": "common_service.menu.menu"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Notification Management",
+      "name": "notification_management", 
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Notification Type",
+          "name": "notification_type",
+          "is_active": false,
+          "link": {
+            "name": "common_service.notification_management.notification_type"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Circulate Notice",
+          "name": "circulate_notice",
+          "is_active": false,
+          "link": {
+            "name": "common_service.notification_management.circulate_notice"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Notification Setup",
+          "name": "notification_setup",
+          "is_active": false,
+          "link": {
+            "name": "common_service.notification_management.notification_setup"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Notification Template",
+          "name": "notification_template",
+          "is_active": false,
+          "link": {
+            "name": "common_service.notification_management.notification_template"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Configuration",
+      "name": "configuration",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Dashboard",
+          "name": "dashboard",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.dashboard"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Price Category",
+          "name": "price_category",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.price_category"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Commodity Group",
+          "name": "commodity_group",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.commodity_group"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Price Fluctuation Alert",
+          "name": "price_fluctuation_alert",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.price_fluctuation_alert"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Law Entry",
+          "name": "law_entry",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.law_entry"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Measurement Unit",
+          "name": "measurement_unit",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.measurement_unit"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Document Management",
+      "name": "document_management",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Document Category",
+          "name": "document_category",
+          "is_active": false,
+          "link": {
+            "name": "common_service.document_management.document_category"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Add Document",
+          "name": "add_document",
+          "is_active": false,
+          "link": {
+            "name": "common_service.document_management.add_document"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Document Indexing",
+          "name": "document_indexing",
+          "is_active": false,
+          "link": {
+            "name": "common_service.document_management.document_indexing"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Document Archive",
+          "name": "document_archive",
+          "is_active": false,
+          "link": {
+            "name": "common_service.document_management.document_archive"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Portal",
+      "name": "portal",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Service Category",
+          "name": "service_category",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.service_category"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Ministry Entry",
+          "name": "ministry_entry",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.ministry_entry"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Organization Entry",
+          "name": "organization_entry",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.organization_entry"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Service customer Type",
+          "name": "service_customer_type",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.service_customer_type"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Service",
+          "name": "service",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.service"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "News",
+          "name": "news",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.news"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Notice",
+          "name": "notice",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.notice"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Portal Header",
+          "name": "portal_header",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.portal_header"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "FAQ",
+          "name": "faq",
+          "is_active": false,
+          "link": {
+            "name": "common_service.portal.faq"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Complain Management",
+      "name": "complain_management",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Complain Type",
+          "name": "complain_type",
+          "is_active": false,
+          "link": {
+            "name": "common_service.complain_management.complain_type"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Complain Designation",
+          "name": "complain_designation",
+          "is_active": false,
+          "link": {
+            "name": "common_service.complain_management.complain_designation"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Submit Designation",
+          "name": "submit_designation",
+          "is_active": false,
+          "link": {
+            "name": "common_service.complain_management.submit_designation"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Complain Chain",
+          "name": "complain_chain",
+          "is_active": false,
+          "link": {
+            "name": "common_service.complain_management.complain_chain"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Complain Request",
+          "name": "complain_request",
+          "is_active": false,
+          "link": {
+            "name": "common_service.complain_management.complain_request"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Complain Report",
+          "name": "complain_report",
+          "is_active": false,
+          "link": {
+            "name": "common_service.complain_management.complain_report"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    }
+  ],
+  "bazar_monitoring" : [
+    {
+      "title": "Configuration",
+      "name": "configuration",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Dashboard",
+          "name": "dashboard",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.dashboard"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Price Category",
+          "name": "price_category",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.price_category"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Commodity Group",
+          "name": "commodity_group",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.commodity_group"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Commodity Name",
+          "name": "commodity_name",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.commodity_name"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Price Fluctuation Alert",
+          "name": "price_fluctuation_alert",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.price_fluctuation_alert"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Market Directory",
+          "name": "market_directory",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.market_directory"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Law Entry",
+          "name": "law_entry",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.law_entry"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Measurement Unit",
+          "name": "measurement_unit",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.measurement_unit"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Section Entry",
+          "name": "section_entry",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.section_entry"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Report Heading",
+          "name": "report_heading",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.report_heading"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Market Assign",
+          "name": "market_assign",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.configuration.market_assign"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Commodity Price & Market Monitoring",
+      "name": "commodity_price_market_monitoring",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Market Inspection Report",
+          "name": "market_inspection_report",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.commodity_price_market_monitoring.market_inspection_report"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Price Entry",
+          "name": "price_entry",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.commodity_price_market_monitoring.price_entry"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Fine Receipt",
+          "name": "fine_receipt",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.commodity_price_market_monitoring.fine_receipt"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Price Publish",
+          "name": "price_publish",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.commodity_price_market_monitoring.price_publish"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Price Trend",
+          "name": "price_trend",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.commodity_price_market_monitoring.price_trend"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Report",
+      "name": "report",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Market Directory Report",
+          "name": "market_directory_report",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.reports.market_directory_report"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Fine Report",
+          "name": "fine_report",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.reports.fine_report"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Market Wise Price Report",
+          "name": "market_wise_price_report",
+          "is_active": false,
+          "link": {
+            "name": "bazar_monitoring_service.reports.market_wise_price_report"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    }
+  ],
+  "export_trophy_cip" : [
+    {
+      "title": "Configuration",
+      "name": "configuration",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z",
+      "children": [
+        {
+          "title": "Dashboard",
+          "name": "dashboard",
+          "is_active": false,
+          "link": {
+            "name": "export_trophy_cip_service.configuration.dashboard"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Production and Service Sector",
+          "name": "product_service_sector",
+          "is_active": false,
+          "link": {
+            "name": "export_trophy_cip_service.configuration.product_service_sector"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        },
+        {
+          "title": "Assign Income",
+          "name": "assign_income",
+          "is_active": false,
+          "link": {
+            "name": "export_trophy_cip_service.configuration.assign_income"
+          },
+          "class_name": "",
+          "is_icon_class": true,
+          "icon": ""
+        }
+      ]
+    }
+  ],
+  "external_sidebar" : [
+    {
+      "title": "Profile",
+      "name": "profile",
+      "is_heading": false,
+      "is_active": false,
+      "link": "external_user.cip_panel.profile",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "M79.6,80a10,10,0,1,0,10,10A10,10,0,0,0,79.6,80Zm-50,0a10,10,0,1,0,10,10A10,10,0,0,0,29.6,80Zm5.9-25H72.35a10,10,0,0,0,8.75-5.15l19.3-35L91.7,10,72.35,45H37.65L16.35,0H0V10H10L28,48l-6.75,12.2A10,10,0,0,0,30,75H90V65H30ZM39,8.49c.73-.87,2.28-1.3,4.67-1.3A3.33,3.33,0,0,1,46,8.08,4.72,4.72,0,0,1,47.25,11H43v7h4v9.6a12.43,12.43,0,0,0,1.19,4.2,10.84,10.84,0,0,0,5.54,5.29,9.54,9.54,0,0,0,3.72.74,21.9,21.9,0,0,0,3-.21,14.83,14.83,0,0,0,2.93-.75,12.34,12.34,0,0,0,2.74-1.47A11.35,11.35,0,0,0,68.58,33a8.93,8.93,0,0,0,2.22-5.36,9,9,0,0,0-.52-3.06A7.88,7.88,0,0,0,68.78,22a7.44,7.44,0,0,0-2.4-1.83,7.29,7.29,0,0,0-3.28-.7,12.56,12.56,0,0,0-2.35.26,9,9,0,0,0-2.51.92,6,6,0,0,0-2,1.76,4.61,4.61,0,0,0-.8,2.75,2,2,0,0,0,.42,1.26l5.18,1.25-.1-.48a1.26,1.26,0,0,1,.41-1,1.47,1.47,0,0,1,1-.36c1,0,1.45.59,1.45,1.78a3.57,3.57,0,0,1-.21,1.11,2.9,2.9,0,0,1-.85,1.21,5.37,5.37,0,0,1-1.84,1,9.92,9.92,0,0,1-3.11.41,3.51,3.51,0,0,1-2.47-1A5,5,0,0,1,54,27.12V18H65V11H54v-.1a13.14,13.14,0,0,0-1.14-4.19A11,11,0,0,0,50.6,3.5a10.27,10.27,0,0,0-3.08-2.08A8.77,8.77,0,0,0,44,.67a18.12,18.12,0,0,0-5.07.73,10,10,0,0,0-4.47,2.7L39,8.54Z"
+    }
+  ]
+}
